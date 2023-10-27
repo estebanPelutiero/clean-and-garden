@@ -5,7 +5,7 @@ import Layout from "./Layout";
 const Hero = () => {
   return (
     <Layout>
-      <div className="mb-10 md:mb-24 text-center">
+      <div className="mb-10 md:mb-20 text-center tracking-widest">
         <h1 className="hidden md:block text-6xl">
           Cuidamos <span className="text-green">tus espacios</span>
         </h1>
@@ -13,20 +13,21 @@ const Hero = () => {
           Cuidamos <br /> <span className="text-green">tus espacios</span>
         </h1>
       </div>
+
       <div className="flex flex-col lg:flex-row items-center gap-10">
         <img
           src={HeroImg}
-          className="w-[36rem]"
+          className="w-[36rem] md:w-full lg:w-[36rem] rounded shadow-lg"
           alt="Persona con guantes de goma preparada para ofrecer servicio de limpieza"
         />
-        <div>
+        <div className="">
           <p className="text-black text-base md:text-lg mb-8">
             Más de <span className="text-green">5 años</span> en el sector de limpieza integral y mantenimiento de
             espacios verdes <span className="text-green">de calidad</span>. <br /> Nos especializamos en ofrecer un
             <span className="text-green"> servicio único</span>, caraterizado por un trato personalizado <span className="text-green">para cada
             cliente</span>.
           </p>
-          <button className="text-base font-medium text-white bg-green px-8 py-2 rounded-lg">Ver Servicios</button>
+          <button className="text-base font-medium text-white bg-green px-8 py-2 rounded-lg shadow-lg">Ver Servicios</button>
         </div>
       </div>
     </Layout>
