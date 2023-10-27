@@ -18,7 +18,7 @@ export default withMT({
 
     fontFamily: {
       'urbanist': ['Urbanist', 'sans-serif'],
-      'comforta': ['Comfortaa']
+      'comforta': ['Comfortaa', 'sans-serif']
     },
 
     extend: {},
