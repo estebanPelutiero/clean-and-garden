@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from './Layout'
-import Escoba from '../assets/icons/escoba.png'
-import Hoja from '../assets/icons/hoja.png'
+import Escoba from '../assets/svgs/escoba.svg'
+import Hoja from '../assets/svgs/hoja.svg'
 
 const Services = () => {
   return (

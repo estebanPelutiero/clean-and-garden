@@ -1,9 +1,9 @@
 import React from "react";
 import Layout from "./Layout";
-import Instagram from "../assets/icons/instagram.png";
-import Whatsapp from "../assets/icons/whatsapp.png";
-import Gmail from "../assets/icons/gmail.png";
-import Linkedin from "../assets/icons/Linkedin.png";
+import Instagram from '../assets/svgs/Insta.svg'
+import Whatsapp from "../assets/svgs/whatsapp.svg";
+import Gmail from "../assets/svgs/gmail.svg";
+import Linkedin from "../assets/svgs/linkedin.svg";
 
 const Footer = () => {
   return (
@@ -26,16 +26,16 @@ const Footer = () => {
             </ul>
 
             <div className="flex items-center gap-5 h-full">
-              <a href="#">
+              <a title="Visitanos en Instagram" href="#">
                 <img className="w-6" src={Instagram} alt="Instagram" />
               </a>
-              <a href="#">
+              <a title="Ir al chat de Whatsapp" href="#">
                 <img className="w-6" src={Whatsapp} alt="Whatsapp" />
               </a>
-              <a href="#">
+              <a title="Enviar un e-mail" href="#">
                 <img className="w-7" src={Gmail} alt="Gmail" />
               </a>
-              <a href="#">
+              <a title="Visitanos en Linkedin" href="#">
                 <img className="w-6" src={Linkedin} alt="Linkedin" />
               </a>
             </div>
