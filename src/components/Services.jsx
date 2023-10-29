@@ -24,7 +24,7 @@ const Services = () => {
           {/* card header */}
           <div className='mb-12'>
             <div className='flex justify-between items-end mb-6'>
-              <h2 className='text-3xl lg:text-4xl font-semibold'>
+              <h2 className='text-3xl lg:text-4xl font-medium'>
                 Limpieza
               </h2>
               <img className='' src={Escoba} alt="Escoba barriendo" />
@@ -53,7 +53,7 @@ const Services = () => {
           {/* card header */}
           <div className='mb-12'>
             <div className='flex justify-between items-end mb-6'>
-              <h2 className='text-3xl lg:text-4xl font-semibold'>
+              <h2 className='text-3xl lg:text-4xl font-medium'>
                 Parquización
               </h2>
               <img className='' src={Hoja} alt="Hoja verde de árbol" />

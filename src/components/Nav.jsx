@@ -75,7 +75,7 @@ const Nav = () => {
  
   return (
   <div className="z-10 fixed top-0 w-full shadow-sm bg-white">
-    <Navbar className="mx-auto max-w-[1120px] shadow-none px-4 md:px-8 py-3 lg:px-0 border-none">
+    <Navbar className="mx-auto max-w-[1200px] shadow-none px-4 md:px-8 py-3 lg:px-0 border-none">
       <div className="flex items-center justify-between">
         <Typography
           as="a"
@@ -83,7 +83,7 @@ const Nav = () => {
           variant="h6"
           className="mr-4 cursor-pointer"
         >
-          <img className="w-44" src={Logo} alt="" />
+          <img className="w-52" src={Logo} alt="" />
         </Typography>
         <div className="hidden lg:block">
           <NavList />
