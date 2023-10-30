@@ -5,7 +5,7 @@ import LogoWhoWeAre from "../assets/imgs/logoWho.png";
 const WhoWeAre = () => {
   return (
     <Layout>
-      <div className="text-black text-5xl lg:text-6xl mb-10 lg:mb-20 text-start lg:text-center">
+      <div className="text-black text-5xl md:text-7xl lg:text-8xl font-medium mb-10 lg:mb-20 text-start">
         <h1>
           Quienes <span className="text-green">somos</span>
         </h1>
@@ -32,7 +32,7 @@ const WhoWeAre = () => {
             </p>
           </div>
 
-          <button className="text-base font-medium text-white bg-green px-10 py-2 rounded-lg shadow-lg">
+          <button className="text-lg font-medium text-white bg-green md:px-10  md:py-3  rounded-lg shadow-lg">
             Hablemos
           </button>
         </div>
