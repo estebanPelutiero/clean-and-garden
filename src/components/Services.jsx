@@ -43,7 +43,7 @@ const Services = () => {
             <li className='text-base lg:text-lg  leading-8'>Centros de salud</li>
             <li className='text-base lg:text-lg  leading-8'>Final de obra</li>
             <li className='text-base lg:text-lg  leading-8'>Instituciones (Bancos, establecimientos educativos, centros de salud, embajadas, etc.)</li>
-            <li className='text-base lg:text-lg  leading-8'>Consorcios, depositos logísticos, medios de transporte, y más.</li>
+            <li className='text-base lg:text-lg  leading-8'>Consorcios, depósitos logísticos, medios de transporte, y más.</li>
           </ul>
         </article>
 
@@ -70,7 +70,7 @@ const Services = () => {
             <li className='text-base lg:text-lg  leading-8'>Resiembra de zonas verdes</li>
             <li className='text-base lg:text-lg  leading-8'>Desmalezamiento</li>
             <li className='text-base lg:text-lg  leading-8'>Sistemas de riego</li>
-            <li className='text-base lg:text-lg  leading-8'>Poda de arboles y plantas</li>
+            <li className='text-base lg:text-lg  leading-8'>Poda de árboles y plantas</li>
             <li className='text-base lg:text-lg  leading-8'>Reposición de plantines de temporada</li>
             <li className='text-base lg:text-lg  leading-8'>Mantenimiento de plantas de interior</li>
             <li className='text-base lg:text-lg  leading-8'>Armados de macetas</li>

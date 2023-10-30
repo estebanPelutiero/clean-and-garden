@@ -18,9 +18,9 @@ const NavList = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex justify-center lg:px-4 py-2 font-medium text-base border-b-[1px] lg:border-none"
+        className="flex justify-end lg:px-4 py-2 border-b-[1px] lg:border-none"
       >
-        <a href="#" className="flex items-center font-urbanist text-base transition-colors">
+        <a href="#" className="flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors">
           Home
         </a>
       </Typography>
@@ -28,19 +28,9 @@ const NavList = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex justify-center lg:px-4 py-2 font-medium text-base border-b-[1px] lg:border-none"
+        className="flex justify-end lg:px-4 py-2 border-b-[1px] lg:border-none"
       >
-        <a href="#" className="flex items-center font-urbanist text-base transition-colors">
-          Nosotros
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="flex justify-center lg:px-4 py-2 font-medium text-base border-b-[1px] lg:border-none"
-      >
-        <a href="#" className="flex items-center font-urbanist text-base transition-colors">
+        <a href="#" className="flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors">
           Nuestros servicios
         </a>
       </Typography>
@@ -48,9 +38,19 @@ const NavList = () => {
         as="li"
         variant="small"
         color="blue-gray"
-        className="flex justify-center lg:pl-4 pt-2 pb-1 lg:pb-2 font-medium text-base"
+        className="flex justify-end lg:px-4 py-2 border-b-[1px] lg:border-none"
       >
-        <a href="#" className="flex items-center font-urbanist text-base transition-colors">
+        <a href="#" className="flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors">
+          Nosotros
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="flex justify-end lg:pl-4 pt-2 pb-1 lg:pb-2"
+      >
+        <a href="#" className="flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors">
           Contacto
         </a>
       </Typography>
@@ -74,7 +74,7 @@ const Nav = () => {
   }, []);
  
   return (
-  <div className="z-50 fixed top-0 w-full shadow-sm bg-white">
+  <div className="z-50 fixed top-0 w-full shadow-md bg-white">
     <Navbar className="mx-auto max-w-[1120px] shadow-none px-4 md:px-8 py-3 lg:px-0 border-none">
       <div className="flex items-center justify-between">
         <Typography
@@ -83,7 +83,7 @@ const Nav = () => {
           variant="h6"
           className="mr-4 cursor-pointer"
         >
-          <img className="w-52" src={Logo} alt="" />
+          <img className="w-52" src={Logo} alt="Clear & Garden | Soluciones integrales de limpieza" />
         </Typography>
         <div className="hidden lg:block">
           <NavList />
@@ -95,9 +95,9 @@ const Nav = () => {
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <XMarkIcon className="h-6 w-6 text-black" strokeWidth={1.5} />
+            <XMarkIcon className="w-7 text-black" strokeWidth={1.5} />
           ) : (
-            <Bars3Icon className="h-6 w-6 text-black" strokeWidth={1.5} />
+            <Bars3Icon className="w-7 text-black" strokeWidth={1.5} />
           )}
         </IconButton>
       </div>

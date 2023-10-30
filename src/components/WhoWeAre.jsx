@@ -7,7 +7,7 @@ const WhoWeAre = () => {
     <Layout>
       <div className="text-black text-5xl md:text-7xl lg:text-8xl font-medium mb-10 lg:mb-20 text-start">
         <h1>
-          Quienes <span className="text-green">somos</span>
+          Quiénes <span className="text-green">somos</span>
         </h1>
       </div>
 
@@ -32,7 +32,7 @@ const WhoWeAre = () => {
             </p>
           </div>
 
-          <button className="text-lg font-medium text-white bg-green md:px-10  md:py-3  rounded-lg shadow-lg">
+          <button className="text-lg font-semibold tracking-wide text-white bg-[#889C39] px-8 py-2 md:px-9 md:py-[10px] rounded-lg shadow-lg">
             Hablemos
           </button>
         </div>
@@ -41,7 +41,7 @@ const WhoWeAre = () => {
           <img
             className="w-[28rem]"
             src={LogoWhoWeAre}
-            alt="Clear & Garden servicios integrales de limpieza"
+            alt="Clean & Garden servicios integrales de limpieza"
           />
         </figure>
       </div>

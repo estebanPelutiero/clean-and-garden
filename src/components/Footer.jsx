@@ -20,29 +20,27 @@ const Footer = () => {
           <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 md:items-end w-1/2">
             <ul className="hidden lg:block text-center lg:text-start">
               <h4 className="font-semibold mb-2">Navegación</h4>
-              <a href="#"><li className="py-[3px]">Home</li></a>
-              <a href="#"><li className="py-[3px]">Nosotros</li></a>
-              <a href="#"><li className="py-[3px]">Servicios</li></a>
-              <a href="#"><li className="pt-[3px]">Contacto</li></a>
+              <a href="#"><li className="py-[3px] tracking-wide">Home</li></a>
+              <a href="#"><li className="py-[3px] tracking-wide">Servicios</li></a>
+              <a href="#"><li className="py-[3px] tracking-wide">Nosotros</li></a>
+              <a href="#"><li className="pt-[3px] tracking-wide">Contacto</li></a>
             </ul>
 
-            <div className="flex items-center gap-5 h-full">
-              <a title="Ir al chat de Whatsapp" href="#">
-                <img className="w-6" src={Whatsapp} alt="Whatsapp" />
+            <div className="flex items-center gap-7 h-full">
+              <a target="_blank" rel="noopener noreferer" title="Ir al chat de Whatsapp" href="#">
+                <img className="w-7" src={Whatsapp} alt="Whatsapp" />
               </a>
-              <a title="Visitanos en Instagram" href="#">
-                <img className="w-6" src={Instagram} alt="Instagram" />
+              <a target="_blank" rel="noopener noreferer" title="Visitanos en Instagram" href="#">
+                <img className="w-7" src={Instagram} alt="Instagram" />
               </a>
               <a title="Enviar un e-mail" href="#">
-                <img className="w-7" src={Gmail} alt="Gmail" />
+                <img className="w-9" src={Gmail} alt="Gmail" />
               </a>
-              <a title="Visitanos en Linkedin" href="#">
-                <img className="w-6" src={Linkedin} alt="Linkedin" />
+              <a target="_blank" rel="noopener noreferer" title="Visitanos en Linkedin" href="#">
+                <img className="w-7" src={Linkedin} alt="Linkedin" />
               </a>
             </div>
           </div>
-
-          
         </section>
       </Layout>
     </footer>
