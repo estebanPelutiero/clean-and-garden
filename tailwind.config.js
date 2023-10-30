@@ -14,6 +14,7 @@ export default withMT({
       'green': '#6B7A2F',
       'dark-green': '#016844',
       'black': '#2F2F30',
+      'blackbg': '#000000'
     },
 
     fontFamily: {

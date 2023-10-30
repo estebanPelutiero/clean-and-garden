@@ -74,7 +74,7 @@ const Nav = () => {
   }, []);
  
   return (
-  <div className="z-10 fixed top-0 w-full shadow-sm bg-white">
+  <div className="z-50 fixed top-0 w-full shadow-sm bg-white">
     <Navbar className="mx-auto max-w-[1120px] shadow-none px-4 md:px-8 py-3 lg:px-0 border-none">
       <div className="flex items-center justify-between">
         <Typography
