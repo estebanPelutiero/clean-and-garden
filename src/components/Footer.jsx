@@ -4,16 +4,17 @@ import Instagram from '../assets/svgs/Insta.svg'
 import Whatsapp from "../assets/svgs/whatsapp.svg";
 import Gmail from "../assets/svgs/gmail.svg";
 import Linkedin from "../assets/svgs/linkedin.svg";
+import whiteLogo from "../assets/svgs/whiteLogo.svg";
 
 const Footer = () => {
   return (
     <footer className="bg-green text-white">
       <Layout>
         <section className="flex flex-col md:flex-row justify-between items-center py-16 gap-14">
-          <div>
-            <h3 className="font-comforta text-center md:text-left">
-              <span className="text-2xl font-semibold">Clean & Garden</span><br />
-              <span className="text-base">Servicios Integrales</span>
+          <div className="flex lg:flex-row flex-col items-center gap-4">
+            <img className="w-12 lg:w-14" src={whiteLogo} alt="Clear & Garden | Servicios integrales de limpieza" />
+            <h3 className="tracking-wider leading-5 font-comforta font-medium text-lg text-center lg:text-start">
+              Clean & Garden <br /> <span className="text-sm tracking-normal">Limpieza Integral</span>
             </h3>
           </div>
 

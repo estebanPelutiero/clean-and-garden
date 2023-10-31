@@ -8,7 +8,7 @@ import {
 } from "@material-tailwind/react";
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Logo from "../assets/imgs/Logo.png";
+import navLogo from "../assets/svgs/navLogo.svg";
  
 const NavList = () => {
 
@@ -83,7 +83,12 @@ const Nav = () => {
           variant="h6"
           className="mr-4 cursor-pointer"
         >
-          <img className="w-52" src={Logo} alt="Clear & Garden | Soluciones integrales de limpieza" />
+          <div className="flex items-center gap-4">
+            <img className="w-12 lg:w-14" src={navLogo} alt="Clear & Garden | Servicios integrales de limpieza" />
+            <h3 className="tracking-wide leading-5 font-comforta font-medium text-lg text-start text-black">
+              Clean & Garden <br /> <span className="text-sm tracking-normal">Limpieza Integral</span>
+            </h3>
+          </div>
         </Typography>
         <div className="hidden lg:block">
           <NavList />
