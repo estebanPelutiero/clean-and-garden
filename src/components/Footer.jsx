@@ -11,9 +11,9 @@ const Footer = () => {
     <footer className="bg-green text-white">
       <Layout>
         <section className="flex flex-col md:flex-row justify-between items-center py-16 gap-14">
-          <div className="flex lg:flex-row flex-col items-center gap-4">
+          <div className="flex items-center gap-4">
             <img className="w-12 lg:w-14" src={whiteLogo} alt="Clear & Garden | Servicios integrales de limpieza" />
-            <h3 className="tracking-wider leading-5 font-comforta font-medium text-lg text-center lg:text-start">
+            <h3 className="tracking-wide leading-5 font-comforta font-medium text-lg">
               Clean & Garden <br /> <span className="text-sm tracking-normal">Limpieza Integral</span>
             </h3>
           </div>
@@ -23,8 +23,8 @@ const Footer = () => {
               <h4 className="font-semibold mb-2">Navegación</h4>
               <a href="#"><li className="py-[3px] tracking-wide">Home</li></a>
               <a href="#"><li className="py-[3px] tracking-wide">Servicios</li></a>
-              <a href="#"><li className="py-[3px] tracking-wide">Nosotros</li></a>
               <a href="#"><li className="pt-[3px] tracking-wide">Contacto</li></a>
+              <a href="#"><li className="py-[3px] tracking-wide">Nosotros</li></a>
             </ul>
 
             <div className="flex items-center gap-7 h-full">

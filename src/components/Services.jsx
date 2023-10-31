@@ -6,7 +6,7 @@ import Hoja from '../assets/svgs/hoja.svg'
 const Services = () => {
   return (
     <Layout>
-      <div className='text-start lg:text-center mb-8 lg:tracking-widest'>
+      <div id='servicios' className='text-start lg:text-center mb-8 lg:tracking-widest'>
         <h1 className='text-5xl md:text-7xl lg:text-8xl text-black font-medium'>En que podemos <span className='text-green'>ayudarte</span></h1>
       </div>
       <div className='mx-auto text-start md:text-center lg:w-[70%] mb-16 lg:mb-32'>
@@ -15,7 +15,6 @@ const Services = () => {
           su empresa, clínica, institución, local, consorcio, final de obra <span className='text-green'>y mucho más</span>.
         </p>
       </div>
-
       <section className='flex flex-col lg:flex-row gap-10 justify-between'>
 
         {/* card limpieza */}

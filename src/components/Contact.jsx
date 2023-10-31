@@ -7,7 +7,7 @@ import Linkedin from "../assets/svgs/linkedin.svg";
 
 export const Contact = () => {
   return (
-    <div className="bg-green text-white shadow-lg">
+    <div id="contacto" className="bg-green text-white shadow-lg">
       <Layout>
         <div className="flex flex-col gap-16 lg:flex-row justify-between items-center py-16 lg:py-36">
             <div>

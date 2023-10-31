@@ -41,7 +41,7 @@ const NavList = () => {
         className="flex justify-end lg:px-4 py-2 border-b-[1px] lg:border-none"
       >
         <a href="#" className="flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors">
-          Nosotros
+          Contacto
         </a>
       </Typography>
       <Typography
@@ -51,7 +51,7 @@ const NavList = () => {
         className="flex justify-end lg:pl-4 pt-2 pb-1 lg:pb-2"
       >
         <a href="#" className="flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors">
-          Contacto
+          Nosotros
         </a>
       </Typography>
     </ul>
@@ -85,7 +85,7 @@ const Nav = () => {
         >
           <div className="flex items-center gap-4">
             <img className="w-12 lg:w-14" src={navLogo} alt="Clear & Garden | Servicios integrales de limpieza" />
-            <h3 className="tracking-wide leading-5 font-comforta font-medium text-lg text-start text-black">
+            <h3 className="tracking-wide leading-5 font-comforta font-medium text-lg text-black">
               Clean & Garden <br /> <span className="text-sm tracking-normal">Limpieza Integral</span>
             </h3>
           </div>

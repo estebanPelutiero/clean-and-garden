@@ -5,7 +5,7 @@ import LogoWhoWeAre from "../assets/imgs/logoWho.png";
 const WhoWeAre = () => {
   return (
     <Layout>
-      <div className="text-black text-5xl md:text-7xl lg:text-8xl font-medium mb-10 lg:mb-20 text-start">
+      <div id="nosotros" className="text-black text-5xl md:text-7xl lg:text-8xl font-medium mb-10 lg:mb-20 text-start">
         <h1>
           Quiénes <span className="text-green">somos</span>
         </h1>
