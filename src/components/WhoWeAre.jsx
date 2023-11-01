@@ -9,7 +9,6 @@ const WhoWeAre = () => {
       <div id="nosotros" className="flex flex-col text-black text-5xl md:text-7xl lg:text-8xl font-medium mb-10 lg:mb-20 text-start">
         <h1 className="w-fit flex flex-col items-end">
           <span className="text-black">Quiénes <span className="text-green">somos</span></span>
-          <img src={Separador} className='w-14 lg:w-20 pt-1' />
         </h1>
       </div>
 
