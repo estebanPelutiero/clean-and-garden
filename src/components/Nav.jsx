@@ -125,6 +125,7 @@ const Nav = () => {
                 <img
                   className="w-12 lg:w-14"
                   src={navLogo}
+                  loading="lazy"
                   alt="Clear & Garden | Servicios integrales de limpieza"
                 />
               </Link>

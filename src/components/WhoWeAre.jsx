@@ -1,7 +1,6 @@
 import React from "react";
 import Layout from "./Layout";
 import LogoWhoWeAre from "../assets/imgs/logoWho.png";
-import Separador from '../assets/svgs/separador.svg'
 
 const WhoWeAre = () => {
   return (
@@ -41,6 +40,7 @@ const WhoWeAre = () => {
         <figure className="hidden lg:block">
           <img
             className="w-[28rem]"
+            loading="lazy"
             src={LogoWhoWeAre}
             alt="Clean & Garden servicios integrales de limpieza"
           />

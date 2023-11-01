@@ -25,6 +25,7 @@ const HorizontalCard = () => {
         >
           <img
             src={Oficinas}
+            loading="lazy"
             alt="Limpieza en oficinas"
             className="h-full w-full object-cover"
           />
@@ -49,6 +50,7 @@ const HorizontalCard = () => {
         >
           <img
             src={Industrial}
+            loading="lazy"
             alt="Limpieza en industrias"
             className="h-full w-full object-cover"
           />
@@ -72,6 +74,7 @@ const HorizontalCard = () => {
         >
           <img
             src={Consorcios}
+            loading="lazy"
             alt="Limpieza en consorcios"
             className="h-full w-full object-cover"
           />
@@ -96,6 +99,7 @@ const HorizontalCard = () => {
         >
           <img
             src={Instituciones}
+            loading="lazy"
             alt="Limpieza en instituciones"
             className="h-full w-full object-scale-down"
           />
@@ -119,6 +123,7 @@ const HorizontalCard = () => {
         >
           <img
             src={Laboratorios}
+            loading="lazy"
             alt="Limpieza en oficinas"
             className="h-full w-full object-cover"
           />

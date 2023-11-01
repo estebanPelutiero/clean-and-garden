@@ -16,6 +16,7 @@ const Footer = () => {
             <Link offset={-80} duration={1300} to="home" smooth={true} className="cursor-pointer">
               <img
                 className="w-12 lg:w-14"
+                loading="lazy"
                 src={whiteLogo}
                 alt="Clear & Garden | Servicios integrales de limpieza"
               />
