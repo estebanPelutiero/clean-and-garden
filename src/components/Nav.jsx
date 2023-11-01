@@ -26,6 +26,7 @@ const NavList = () => {
           spy={true}
           to="home"
           duration={1300}
+          offset={-80}
           className="cursor-pointer flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors"
         >
           Home
@@ -59,12 +60,12 @@ const NavList = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          to="contacto"
+          to="nosotros"
           duration={1300}
-          offset={-300}
+          offset={-100}
           className="cursor-pointer flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors"
         >
-          Contacto
+          Nosotros
         </Link>
       </Typography>
       <Typography
@@ -77,12 +78,12 @@ const NavList = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          to="nosotros"
+          to="contacto"
           duration={1300}
-          offset={-150}
+          offset={-100}
           className="cursor-pointer flex items-center font-urbanist font-medium text-lg tracking-wider transition-colors"
         >
-          Nosotros
+          Contacto
         </Link>
       </Typography>
     </ul>
@@ -117,6 +118,7 @@ const Nav = () => {
               <Link
               to="home"
               smooth={true}
+              offset={-80}
               className="cursor-pointer"
               duration={1300}
               >

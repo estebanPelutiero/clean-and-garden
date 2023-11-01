@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
-    <div className="lg:bg-[url('./assets/imgs/hero.jpg')] bg-[url('./assets/imgs/heroMob.jpg')] bg-cover bg-center z-[-1] h-[90vh] lg:h-[100vh]">
+    <div className="bg-[url('./assets/imgs/HeroImg.jpg')] bg-cover bg-center z-[-1] h-[90vh] lg:h-[100vh]">
       <div className="overflow-x-hidden absolute z-0 w-full h-[90vh] lg:h-[100vh] backdrop-brightness-[.4] lg:backdrop-brightness-100 lg:bg-gradient-to-r from-blackbg/80 to-black/20"></div>
       <section id="home" className="relative z-10 h-full flex items-center mt-16 mx-auto px-4 md:px-8 lg:px-0 lg:max-w-[1120px] font-urbanist">
           <div className="md:w-[65%] lg:w-[56%]">

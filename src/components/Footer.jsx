@@ -9,11 +9,11 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className="bg-green text-white">
-      <Layout>
+    <footer className="bg-black text-white">
+      <section className="mx-auto px-4 md:px-8 lg:px-0 lg:max-w-[1120px] font-urbanist">
         <section className="flex flex-col md:flex-row justify-between items-center py-16 gap-14">
           <div className="flex items-center gap-4">
-            <Link duration={1300} to="home" smooth={true} className="cursor-pointer">
+            <Link offset={-80} duration={1300} to="home" smooth={true} className="cursor-pointer">
               <img
                 className="w-12 lg:w-14"
                 src={whiteLogo}
@@ -21,15 +21,14 @@ const Footer = () => {
               />
             </Link>
             <h3 className="tracking-wide leading-5 font-comforta font-medium text-lg">
-              Clean & Garden <br />{" "}
+              Clean & Garden <br />
               <span className="text-sm tracking-normal">Limpieza Integral</span>
             </h3>
           </div>
-
-          <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 md:items-end w-1/2">
-            <ul className="hidden lg:block text-center lg:text-start">
+          <div className="hidden lg:block justify-between items-center gap-10 md:items-end">
+            <ul className="text-center lg:text-start">
               <h4 className="font-semibold mb-2">Navegación</h4>
-              <Link duration={1300} smooth={true} to="home">
+              <Link offset={-80} duration={1300} smooth={true} to="home">
                 <li className="cursor-pointer py-[3px] tracking-wide">Home</li>
               </Link>
               <Link duration={1300} smooth={true} offset={-100} to="servicios">
@@ -37,50 +36,20 @@ const Footer = () => {
                   Servicios
                 </li>
               </Link>
-              <Link duration={1300} smooth={true} offset={-300} to="contacto">
-                <li className="cursor-pointer pt-[3px] tracking-wide">
-                  Contacto
-                </li>
-              </Link>
-              <Link duration={1300} smooth={true} offset={-150} to="nosotros">
+              <Link duration={1300} smooth={true} offset={-100} to="nosotros">
                 <li className="cursor-pointer py-[3px] tracking-wide">
                   Nosotros
                 </li>
               </Link>
+              <Link duration={1300} smooth={true} offset={-150} to="contacto">
+                <li className="cursor-pointer pt-[3px] tracking-wide">
+                  Contacto
+                </li>
+              </Link>
             </ul>
-
-            <div className="flex items-center gap-7 h-full">
-              <a
-                target="_blank"
-                rel="noopener noreferer"
-                title="Ir al chat de Whatsapp"
-                href="#"
-              >
-                <img className="w-7" src={Whatsapp} alt="Whatsapp" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferer"
-                title="Visitanos en Instagram"
-                href="#"
-              >
-                <img className="w-7" src={Instagram} alt="Instagram" />
-              </a>
-              <a title="Enviar un e-mail" href="#">
-                <img className="w-9" src={Gmail} alt="Gmail" />
-              </a>
-              <a
-                target="_blank"
-                rel="noopener noreferer"
-                title="Visitanos en Linkedin"
-                href="#"
-              >
-                <img className="w-7" src={Linkedin} alt="Linkedin" />
-              </a>
-            </div>
           </div>
         </section>
-      </Layout>
+      </section>
     </footer>
   );
 };

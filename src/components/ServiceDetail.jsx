@@ -8,9 +8,10 @@ import {
 } from "@material-tailwind/react";
 import Oficinas from '../assets/imgs/oficinas.jpg'
 import Industrial from '../assets/imgs/industrial.jpg'
-import Consorcios from '../assets/imgs/consorcios.jpeg'
+import Consorcios from '../assets/imgs/HeroImg.jpg'
 import Instituciones from '../assets/imgs/instituciones.jpg'
 import Laboratorios from '../assets/imgs/laboratorios.jpg'
+import Separador from '../assets/svgs/separador.svg'
 import Layout from "./Layout";
  
 const HorizontalCard = () => {
@@ -32,6 +33,7 @@ const HorizontalCard = () => {
         <CardBody>
           <Typography variant="h6" className="mb-4 uppercase font-urbanist text-green">
             Limpieza en oficinas
+            <img className="w-10" src={Separador} />
           </Typography>
           <Typography color="gray" className=" font-normal font-urbanist">
             Mantener limpias las oficinas es crucial para asegurar un ambiente laboral adecuado y armónico, siendo uno de los lugares donde se pasan la mayoría de las horas del día, conviviendo con muchas personas. <br />
@@ -49,13 +51,14 @@ const HorizontalCard = () => {
         >
           <img
             src={Industrial}
-            alt="Limpieza en oficinas"
+            alt="Limpieza en industrias"
             className="h-full w-full object-cover"
           />
         </CardHeader>
         <CardBody>
           <Typography variant="h6" className="mb-4 uppercase font-urbanist text-green">
             Limpieza industrial
+            <img className="w-10" src={Separador} />
           </Typography>
           <Typography color="gray" className=" font-normal font-urbanist">
             La industria es quien mueve la manufactura de país y como todos los demás rubros, el mantenimiento de la limpieza es de suma importancia para su buen funcionamiento. <br />
@@ -72,13 +75,14 @@ const HorizontalCard = () => {
         >
           <img
             src={Consorcios}
-            alt="Limpieza en oficinas"
+            alt="Limpieza en consorcios"
             className="h-full w-full object-cover"
           />
         </CardHeader>
         <CardBody>
           <Typography variant="h6" className="mb-4 uppercase font-urbanist text-green">
             Servicio integral para consorcios
+            <img className="w-10" src={Separador} />
           </Typography>
           <Typography color="gray" className=" font-normal font-urbanist">
             Sabemos de la importancia de la limpieza en un edificio, que las zonas de alto tránsito permanezcan limpias y con buen aroma. Así mismo cuidar los artefactos y zonas de uso común logrando un buen ambiente y una mejor convivencia. <br />
@@ -96,13 +100,14 @@ const HorizontalCard = () => {
         >
           <img
             src={Instituciones}
-            alt="Limpieza en oficinas"
-            className="h-full w-full object-cover"
+            alt="Limpieza en instituciones"
+            className="h-full w-full object-scale-down"
           />
         </CardHeader>
         <CardBody>
           <Typography variant="h6" className="mb-4 uppercase font-urbanist text-green">
             Limpieza en instituciones
+            <img className="w-10" src={Separador} />
           </Typography>
           <Typography color="gray" className=" font-normal font-urbanist">
           Los espacios como colegios, jardines de infante, facultades e institutos, son áreas donde hay un gran tráfico de personas constantemente, con lo cual se les debe prestar una atención, cuidado y limpieza extraordinaria.
@@ -126,6 +131,7 @@ const HorizontalCard = () => {
         <CardBody>
           <Typography variant="h6" className="mb-4 uppercase font-urbanist text-green">
             Clinicas y laboratorios
+            <img className="w-10" src={Separador} />
           </Typography>
           <Typography color="gray" className=" font-normal font-urbanist">
             En <span className="font-comforta text-green">Clean & Garden</span>  disponemos de personal altamente capacitado y entrenado para ajustarse a los estándares de higiene en recintos de área de salud. <br /> <br />

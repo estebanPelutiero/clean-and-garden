@@ -2,12 +2,14 @@ import React from 'react'
 import Layout from './Layout'
 import Escoba from '../assets/svgs/escoba.svg'
 import Hoja from '../assets/svgs/hoja.svg'
+import Separador from '../assets/svgs/separador.svg'
 
 const Services = () => {
   return (
     <Layout>
-      <div id='servicios' className='text-start lg:text-center mb-8 lg:tracking-widest'>
+      <div id='servicios' className='flex flex-col items-start lg:items-center text-start lg:text-center mb-8 lg:tracking-widest'>
         <h1 className='text-5xl md:text-7xl lg:text-8xl text-black font-medium'>En que podemos <span className='text-green'>ayudarte</span></h1>
+        <img src={Separador} className='w-14 lg:w-20 pt-2' />
       </div>
       <div className='mx-auto text-start md:text-center lg:w-[70%] mb-16 lg:mb-32'>
         <p className='text-base lg:text-xl'>
