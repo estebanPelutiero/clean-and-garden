@@ -33,7 +33,7 @@ const WhoWeAre = () => {
           </div>
 
           <button className="text-lg font-semibold tracking-wide text-white bg-[#889C39] px-8 py-2 md:px-9 md:py-[10px] rounded-lg shadow-lg">
-            Hablemos
+            <a target="_blank" rel="noopener noreferer" title="Ir al chat de Whatsapp" href="https://wa.me/5491122900189">Hablemos</a>
           </button>
         </div>
 

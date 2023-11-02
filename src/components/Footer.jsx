@@ -12,19 +12,24 @@ const Footer = () => {
     <footer className="bg-black text-white">
       <section className="mx-auto px-4 md:px-8 lg:px-0 lg:max-w-[1120px] font-urbanist">
         <section className="flex flex-col md:flex-row justify-between items-center py-16 gap-14">
-          <div className="flex items-center gap-4">
-            <Link offset={-80} duration={1300} to="home" smooth={true} className="cursor-pointer">
-              <img
-                className="w-12 lg:w-14"
-                loading="lazy"
-                src={whiteLogo}
-                alt="Clear & Garden | Servicios integrales de limpieza"
-              />
-            </Link>
-            <h3 className="tracking-wide leading-5 font-comforta font-medium text-lg">
-              Clean & Garden <br />
-              <span className="text-sm tracking-normal">Limpieza Integral</span>
-            </h3>
+          <div className="flex-col">
+            <div className="flex items-center gap-4">
+              <Link offset={-80} duration={1300} to="home" smooth={true} className="cursor-pointer">
+                <img
+                  className="w-12 lg:w-14"
+                  loading="lazy"
+                  src={whiteLogo}
+                  alt="Clear & Garden | Servicios integrales de limpieza"
+                />
+              </Link>
+              <h3 className="tracking-wide leading-5 font-comforta font-medium text-lg">
+                Clean & Garden<br />
+                <span className="text-sm tracking-normal">Limpieza Integral</span>
+              </h3>
+            </div>
+            <div className="pt-2">
+              © 2023
+            </div>
           </div>
           <div className="hidden lg:block justify-between items-center gap-10 md:items-end">
             <ul className="text-center lg:text-start">
