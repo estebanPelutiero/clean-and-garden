@@ -6,11 +6,11 @@ import {
   CardBody,
   Typography,
 } from "@material-tailwind/react";
-import Oficinas from '../assets/imgs/oficinas.jpg'
-import Industrial from '../assets/imgs/industrial.jpg'
-import Consorcios from '../assets/imgs/HeroImg.jpg'
-import Instituciones from '../assets/imgs/instituciones.jpg'
-import Laboratorios from '../assets/imgs/laboratorios.jpg'
+import Oficinas from '../assets/imgs/oficinas.webp'
+import Industrial from '../assets/imgs/industrial.webp'
+import Consorcios from '../assets/imgs/HeroImg.webp'
+import Instituciones from '../assets/imgs/instituciones.webp'
+import Laboratorios from '../assets/imgs/laboratorios.webp'
 import Layout from "./Layout";
  
 const HorizontalCard = () => {

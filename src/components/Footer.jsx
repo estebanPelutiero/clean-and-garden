@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="bg-black text-white">
       <section className="mx-auto px-4 md:px-8 lg:px-0 lg:max-w-[1120px] font-urbanist">
         <section className="flex flex-col md:flex-row justify-between items-center py-16 gap-14">
-          <div className="flex-col">
+          <div className="flex-col items-center">
             <div className="flex items-center gap-4">
               <Link offset={-80} duration={1300} to="home" smooth={true} className="cursor-pointer">
                 <img
@@ -27,7 +27,7 @@ const Footer = () => {
                 <span className="text-sm tracking-normal">Limpieza Integral</span>
               </h3>
             </div>
-            <div className="pt-2">
+            <div className="pt-2 text-center md:text-start">
               © 2023
             </div>
           </div>
