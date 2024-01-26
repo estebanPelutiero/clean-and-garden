@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
         </section>
       </section>
-      <div className="text-sm mx-auto px-4 md:px-8 lg:px-0 lg:max-w-[1120px] font-urbanist py-6 border-t border-t-white/10">
+      <div className="text-sm mx-auto px-4 md:px-8 lg:px-0 lg:max-w-[1120px] font-urbanist py-6 border-t border-t-white/10 text-center">
         Desarrollado en
         <a className="font-semibold hover:tracking-widest hover:text-green ease-in-out duration-200" target="_blank" rel="noopener noreferer" href="https://osswebstudio.tech/"> Oss Web Studio</a>
       </div>
